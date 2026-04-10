@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    background-color: #7c3030;
+ }
+
+h1  {
+    color: #256a6c;
+ }
+
+/*Breakpoint para telas menores*/
+@media screen and (max-width: 991px) {
+    body {
+        background-color: #7c3030;
+    }
+
+    h1 {
+        color: #ffffff;
+    }
+    img {
+        display: none;
+    } 
+} 
+
+@media screen and (max-width: 767px) {
+    h1 {
+         background-color: #7c3030;
+        color: #673b78;
+    }
+    img {
+        display: initial;
+    }
+    
+}
+
