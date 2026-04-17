@@ -1,0 +1,109 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contatos": [
+    {
+      "nome": "arthur",
+      "sobrenome": "batista",
+      "email": "arthurbatista@gmail.com",
+      "id": "WWlANV3oxPE"
+    },
+    {
+      "nome": "Marcos",
+      "sobrenome": "santos",
+      "email": "marcosdosantos@gmail.com",
+      "id": "Sj9zeSfOuqk"
+    },
+    {
+      "nome": "eduardo",
+      "sobrenome": "costa",
+      "email": "eduardocosta@gmail.com",
+      "id": "IaebERbU62o"
+    },
+    {
+      "nome": "felipe",
+      "sobrenome": "torolho",
+      "email": "fett@gmail.com",
+      "id": "M0tVbMUcekU"
+    },
+    {
+      "nome": "joao",
+      "sobrenome": "vitor",
+      "email": "patrick@gmail.com",
+      "id": "dnd2uzp1ZoA"
+    }
+  ],
+  "produtos": [
+    {
+      "produto": "teclado",
+      "preço": "100,00",
+      "estoque": "1222",
+      "id": "RsQh68PsuW0"
+    },
+    {
+      "produto": "mouse",
+      "preço": "90,00",
+      "estoque": "1222",
+      "id": "T5fC33uoXVo"
+    },
+    {
+      "produto": "monitorDoDeusMARCOS",
+      "preço": "1,500.000.000,00",
+      "estoque": "1222",
+      "id": "3cHI1sy3adE"
+    },
+    {
+      "produto": "PcDoArthurDeus",
+      "preço": "500.000.000,00",
+      "estoque": "1",
+      "id": "PNWsh06uu10"
+    },
+    {
+      "produto": "CelularDoBolsonaro",
+      "preço": "NINGUÉM VAI PEGAR MEU TELEFONE!!!",
+      "estoque": "PEGARAM MEU TELEFONE:/",
+      "id": "Hg6R46A05fM"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "id": "TtEK7maVuV4"
+    },
+    {
+      "nome": "Arthur",
+      "sobrenome": "Batista",
+      "id": "GdonRGDVBAQ"
+    },
+    {
+      "nome": "Arthur",
+      "sobrenome": "Batista",
+      "id": "uQim8e6pXVI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
