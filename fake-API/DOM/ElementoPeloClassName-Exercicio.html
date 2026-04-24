@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="fruta" placeholder="Digite o nome do novo item">
+
+    <select id="nomeClasse">
+    <option value=""></option>
+    <option value="corsim">corsim</option>
+    <option value="cornao">cornao</option>
+    </select>
+
+    <button onclick="cadastrarFrutas()">Cadastrar</button>
+    <h1>Frutas</h1>
+    <ul id="listafrutas">
+        <li class="corsim">Amora</li>
+       
+    </ul>    
+    <script>
+        function cadastrarFrutas() {
+            const frutas = document.getElementById("fruta").value;
+            const nomeClasse = document.getElementById("nomeClasse").value;
+            const listaFrutas = document.getElementById("listafrutas");
+
+            if(frutas.trim().length == 0 || nomeClasse.trim().length == 0) {
+                alert("Digite o nome da fruta e a classe para cadastrar");
+                return false;
+            }
+
+
+            listaFrutas.innerHTML += `<li class="${nomeClasse}">${frutas}</li>`; 
+
+        
+        }
+    </script>
+</body>
+</html>

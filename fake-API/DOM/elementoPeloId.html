@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="nome">
+    <input type="text" id="sobrenome">
+    <button onclick="juntarNomes()">Mostrar nome completo</button>
+
+    
+    <script>
+        function juntarNomes() {
+            const nome = window.document.getElementById("nome").value;
+            const sobrenome = document.getElementById("sobrenome").value; 
+            console.log(nome);
+            consle.log(nome.value);
+            console.log(nome.id);
+            nome.value = "Ivan";
+        }
+    </script>
+</body>
+</html>
