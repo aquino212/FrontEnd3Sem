@@ -1,19 +1,12 @@
 {
-  "usuarios": [
-    {
-      "id": "1",
-      "nome": "Jao",
-      "idade": 81
-    }
-  ],
   "imc": [
     {
-      "nome": "ivan",
-      "altura": 1.70,
+      "nome": "Ivan",
+      "altura": 1.7,
       "peso": 90,
-      "imc": 31.477966223242138,
+      "imc": 31.14186851211073,
       "situacao": "Obesidade Grau I",
-      "id": "Xdrs7n35I_k"
+      "id": "gHqPOjNOp6M"
     },
     {
       "nome": "Arthur",
@@ -23,8 +16,6 @@
       "situacao": "Sobrepeso",
       "id": "_N3ABrLGAvo"
     }
-  ],
-  "calculadora": [
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }

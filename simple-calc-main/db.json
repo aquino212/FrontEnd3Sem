@@ -1,0 +1,26 @@
+{
+  "resultadoCalculado": [
+    {
+      "n1": 22,
+      "n2": 22,
+      "operacao": "soma",
+      "resultado": "44.00",
+      "id": "NMWsH9-PpWc"
+    },
+    {
+      "n1": 20,
+      "n2": 20,
+      "operacao": "soma",
+      "resultado": "40.00",
+      "id": "ElTrKa2BHCQ"
+    },
+    {
+      "n1": 222,
+      "n2": 222,
+      "operacao": "subtracao",
+      "resultado": "0.00",
+      "id": "2A3QHuuMJiE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
