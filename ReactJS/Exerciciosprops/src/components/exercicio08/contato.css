@@ -1,0 +1,14 @@
+.contato {
+  margin: 8px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.contato h4 {
+  margin: 0;
+}
+
+.contato p {
+  margin: 4px 0;
+  font-size: 14px;
+}
